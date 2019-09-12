@@ -104,6 +104,7 @@ int mostra(LISTA* p)
 		n += 1;
 		ponteiro = ponteiro->prox;
 	} while (ponteiro != NULL);
+
 	return n-1;	// somou antes
 }
 
